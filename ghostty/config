@@ -1,0 +1,92 @@
+# Font settings
+font-family = Hack Nerd Font Mono
+font-size = 10
+font-style = Bold
+
+# Window settings
+window-decoration = true
+window-theme = ghostty
+window-titlebar-background = #000000
+window-titlebar-foreground = #ff004d
+background-opacity = 1
+window-padding-x = 10
+window-padding-y = 10
+
+# Background and Foreground
+background = #0a0e14
+foreground = #d4d4dc
+
+# Cursor
+cursor-color = #ff2f6a
+cursor-text = #0a0e14
+cursor-style = block
+
+# Selection
+selection-background = #2d1b3d
+selection-foreground = #d4d4dc
+
+# Black
+palette = 0=#0a0e14
+palette = 8=#3b4261
+
+# Red
+palette = 1=#ff004d
+palette = 9=#ff2f6a
+
+# Green
+palette = 2=#39ff14
+palette = 10=#1abc9c
+
+# Yellow
+palette = 3=#ffff00
+palette = 11=#ff9e64
+
+# Blue
+palette = 4=#5865f2
+palette = 12=#00d9ff
+
+# Magenta/Purple
+palette = 5=#bd93f9
+palette = 13=#ff6ac1
+
+# Cyan
+palette = 6=#00f5ff
+palette = 14=#00d9ff
+
+# White
+palette = 7=#d4d4dc
+palette = 15=#ffffff
+
+# Shell integration
+shell-integration = detect
+shell-integration-features = cursor,sudo,title
+
+# Performance
+resize-overlay = always
+
+# Clipboard
+clipboard-read = allow
+clipboard-write = allow
+clipboard-paste-protection = false
+
+# Mouse
+mouse-hide-while-typing = true
+
+# Misc
+confirm-close-surface = false
+quit-after-last-window-closed = false
+
+# Background
+background-image = "/home/seramaro/Pictures/lucy3.png"
+background-image-fit = contain
+background-image-position = bottom-right
+background-image-opacity = 0.4
+custom-shader = ~/.config/ghostty/shaders/shaderr.glsl
+custom-shader = ~/.config/ghostty/shaders/shader.glsl
+
+selection-background = #43464E
+selection-foreground = #c5c9c7
+
+maximize = true
+title = "AXL2077"
+gtk-titlebar-hide-when-maximized = true
